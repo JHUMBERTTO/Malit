@@ -9,11 +9,8 @@ const Billing = () => (
       <img src={exampleMenu} alt="billing" className='w-[100%] h-[100%] relative z-[5]'/>
     </div>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>ZZZZZZZZZZZZZZZZZZZZZ<br className='sm:block hidden'/>zzzzzzzzzzz</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>zzzzzzzzzzzzzzzzzz
-      zzzzzzzzzzzzzzzzzzzzzzzz
-      zzzzzzzzzzzzzzzzzzzzzz
-      ZZZZZZZZZZZZZZZZZZZZZZZZZZZ</p>
+      <h2 className={styles.heading2}>¿Quieres un menú digital <br className='sm:block hidden'/> fácil, moderno y rápido? </h2>
+
     </div>
   </section>    
 )

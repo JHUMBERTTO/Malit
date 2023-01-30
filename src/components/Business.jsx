@@ -1,6 +1,8 @@
+import { fromJSON } from 'postcss'
 import {features} from '../constants'
 import styles, {layout} from '../style'
 import Button from './Button'
+import 'animate.css';
 
 const FeatureCard = ( {icon, title, content, index}) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -8,7 +10,7 @@ const FeatureCard = ( {icon, title, content, index}) => (
       <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain'/>
     </div>
     <div className='flex-1 flex flex-col ml-3'>
-      <h4 className='font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1'>
+      <h4 className='font-poppins font-semibold text-black text-[18px] leading-[23px] mb-1'>
         {title}
       </h4>
       <p className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
@@ -21,7 +23,7 @@ const FeatureCard = ( {icon, title, content, index}) => (
 const Business = () =>(
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>MALIT</h2>
+        <h2 className= {styles.heading2}>MALIT</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>
           Malit tu mejor opcion para volver tu negocio mas inteligente, Contactanos para recibir un servicio personalizado
         </p>
