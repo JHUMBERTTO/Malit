@@ -2,9 +2,10 @@ import {features} from '../constants'
 import styles, {layout} from '../style'
 import Button from './Button'
 
+
 const FeatureCard = ( {icon, title, content, index}) => (
-  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+  <div data-aos="fade-up" data-aos-duration="1300" data-aos-anchor-placement="center-bottom" className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
+    <div className={`w-[64px] h-[64px] ${styles.flexCenter} `}>
       <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain'/>
     </div>
     <div className='flex-1 flex flex-col ml-3'>
@@ -19,7 +20,7 @@ const FeatureCard = ( {icon, title, content, index}) => (
 )
 
 const Business = () =>(
-    <section id='features' className={layout.section}>
+    <section id="servicio" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>MALIT</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>

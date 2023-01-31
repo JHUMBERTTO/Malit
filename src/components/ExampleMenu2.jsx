@@ -3,8 +3,8 @@ import styles, {layout} from '../style'
 import Button from './Button'
 
 const ExampleMenu2 = () => (
-  <section className={layout.section}>
-    <div className={layout.sectionInfo}>
+  <section id="soluciones" className={`${layout.section} `}>
+    <div className={layout.sectionInfo} data-aos="fade-right" data-aos-duration="1200">
       <h2 className={styles.heading2}>zzzzzzzzzzzzz <br className='sm:block hidden'/> zzzzzzzzzzzzz</h2>
     <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       zzzzzzzzzzzzzzzzzzzzzz
@@ -15,8 +15,7 @@ const ExampleMenu2 = () => (
     <Button styles='mt-10'/>
     </div>
     <div className={layout.sectionImg}>
-      <img src={exampleMenu2} alt="ExampleMenu2" className='w-[100%] h-[100%]' />
-
+      <img src={exampleMenu2} alt="ExampleMenu2" className='w-[100%] h-[100%]' data-aos="fade-left" data-aos-duration="1300"  data-aos-offset="300"/>
     </div>
   </section>
   )

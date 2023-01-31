@@ -2,19 +2,19 @@ import { instagram, star, shield  } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
+    id: "inicio",
     title: "Inicio",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "servicio",
+    title: "Servicio",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "soluciones",
+    title: "Soluciones",
   },
   {
-    id: "clients",
+    id: "nosotros",
     title: "Nosotros",
   },
 ];
@@ -40,14 +40,9 @@ export const features = [
 
 export const stats = [
   {
-    id: "stats-1",
-    title: "Personas que confian en Malit",
-    value: "50+",
-  },
-  {
     id: "stats-2",
     title: "Restaurantes y fondas que confian en nosotros",
-    value: "80+",
+    value: "30+",
   }
 ];
 
@@ -60,3 +55,4 @@ export const socialMedia = [
     link: "https://www.instagram.com/",
   },
 ];
+
