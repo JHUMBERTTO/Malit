@@ -1,4 +1,4 @@
-
+import 'animate.css';
 import styles from "../style"
 
 const Hero = () => (
@@ -7,11 +7,11 @@ const Hero = () => (
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
           Transforma tu menú <br className="sm:block hidden"/> {" "}
-            <span className="text-white">con nuestro servicio </span> {" "}
+            <span className="text-black">con nuestro servicio </span> {" "}
           </h1>
         </div>
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">de creación digital</h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Crece tu negocio con un menú digital.</p>
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100px] leading-[75px] w-full">de creación digital</h1>
+        <p className={`${styles.paragraph} text-black max-w-[470px] mt-5`}>Crece tu negocio con un menú digital.</p>
       </div>
   </section>
   )
