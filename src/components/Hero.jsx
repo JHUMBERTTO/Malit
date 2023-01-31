@@ -1,4 +1,3 @@
-import 'animate.css';
 import styles from "../style"
 
 const Hero = () => (

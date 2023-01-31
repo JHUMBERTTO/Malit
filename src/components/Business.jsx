@@ -1,8 +1,7 @@
-import { fromJSON } from 'postcss'
 import {features} from '../constants'
 import styles, {layout} from '../style'
 import Button from './Button'
-import 'animate.css';
+
 
 
 const FeatureCard = ( {icon, title, content, index}) => (
