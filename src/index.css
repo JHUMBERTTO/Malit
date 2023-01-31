@@ -23,8 +23,13 @@
   scroll-behavior: smooth;
 }
 .bgpage{
-  background-color: #FAEBD7;
+  background-color: #FFFFFF;
 }
+/* .bgpage{ 
+  background-color: #CD6C00;
+}
+*/
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
