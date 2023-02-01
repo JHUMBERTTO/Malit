@@ -10,11 +10,9 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #ffe9db -278.56%,
   );
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.2);
 }
 .buttonContact{
   background: rgb(217,173,124);
@@ -27,7 +25,7 @@
   scroll-behavior: smooth;
 }
 .bgpage{
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 /* .bgpage{ 
   background-color: #CD6C00;
@@ -113,6 +111,10 @@
   background: var(--black-gradient);
 }
 
+.bg-realorange{
+  background: #ff3300;
+}
+
 .bg-orange-gradient {
   background: linear-gradient(
     157.81deg,
@@ -133,4 +135,8 @@
 .white_gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.text-dimlyblue{
+  background: #e8f9fd
 }

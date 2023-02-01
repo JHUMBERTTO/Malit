@@ -15,7 +15,7 @@ const ExampleMenu2 = () => (
     <Button styles='mt-10'/>
     </div>
     <div className={layout.sectionImg}>
-      <img src={exampleMenu2} alt="ExampleMenu2" className='w-[100%] h-[100%]' data-aos="fade-left" data-aos-duration="1300"  data-aos-offset="300"/>
+      <img src={exampleMenu2} alt="ExampleMenu2" className='w-[98.5%] h-[98.5%]' data-aos="fade-left" data-aos-duration="1300"  data-aos-offset="300"/>
     </div>
   </section>
   )

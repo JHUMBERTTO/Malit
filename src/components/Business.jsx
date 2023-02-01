@@ -5,7 +5,7 @@ import Button from './Button'
 
 
 const FeatureCard = ( {icon, title, content, index}) => (
-  <div data-aos="fade-up" data-aos-duration="1300" data-aos-anchor-placement="center-bottom" className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
+  <div data-aos="fade-up" data-aos-duration="1300" data-aos-anchor-placement="center-bottom" className={` flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w-[64px] h-[64px] ${styles.flexCenter} `}>
       <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain'/>
     </div>
@@ -13,7 +13,7 @@ const FeatureCard = ( {icon, title, content, index}) => (
       <h4 className='font-poppins font-semibold text-black text-[18px] leading-[23px] mb-1'>
         {title}
       </h4>
-      <p className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
+      <p className='font-poppins font-normal text-black text-[16px] leading-[24px] mb-1'>
         {content}
       </p>
     </div>
@@ -25,7 +25,9 @@ const Business = () =>(
       <div className={layout.sectionInfo}>
         <h2 className= {styles.heading2}>MALIT</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>
-          Malit tu mejor opcion para volver tu negocio mas inteligente, Contactanos para recibir un servicio personalizado
+          Tu mejor opcion para tu menú digital único y asequible.
+          Lidera en innovación gastronómica, 
+          ¡contáctanos hoy!
         </p>
         <Button/>
       </div>

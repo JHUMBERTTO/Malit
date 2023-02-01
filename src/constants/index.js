@@ -25,14 +25,14 @@ export const features = [
     icon: star,
     title: "Calidad",
     content:
-      "La mejor calidad en precio accesible a comparacion de  nuestros competidores",
+      "Obtén la mejor calidad a precios asequibles en comparación con nuestros competidores.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Seguridad",
+    title: "Confianza",
     content:
-      "Malit se compromete a Entregar y Desarrollar el servicio al cliente, Contactanos!."
+      "MALIT se enorgullece de garantizar cumplimiento y ofrecer un servicio al cliente de alta calidad."
   },
 ];
 
