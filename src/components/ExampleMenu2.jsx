@@ -5,12 +5,9 @@ import Button from './Button'
 const ExampleMenu2 = () => (
   <section id="soluciones" className={`${layout.section} `}>
     <div className={layout.sectionInfo} data-aos="fade-right" data-aos-duration="1200">
-      <h2 className={styles.heading2}>zzzzzzzzzzzzz <br className='sm:block hidden'/> zzzzzzzzzzzzz</h2>
+      <h2 className={styles.heading2}>Lleva tu negocio al siguiente nivel <br className='sm:block hidden'/></h2>
     <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      zzzzzzzzzzzzzzzzzzzzzz
-      zzzzzzzzzzzzzzzzzz
-      zzzzzzzzzzzzzzzzzzzzzz
-      zzzzzz
+    Mejora tu negocio con nosotros. Haz clic en "Contactar" para más info.
     </p>
     <Button styles='mt-10'/>
     </div>

@@ -138,6 +138,11 @@
   filter: blur(750px);
 }
 
-.text-dimlyblue{
-  background: #e8f9fd
+.btnContact{
+  opacity: 0.8;
+  transition: 0.3s;
 }
+
+.btnContact:hover{
+  opacity: 1;
+  }

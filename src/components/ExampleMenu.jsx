@@ -12,10 +12,7 @@ const ExampleMenu = () => (
     </div>
     <div className={` ml-20 ${layout.sectionInfo} `} data-aos="fade-left" data-aos-duration="1200">
       <h2 className={styles.heading2}>¿Quieres un menú digital<br className='sm:block hidden'/>fácil, moderno y rápido?</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>zzzzzzzzzzzzzzzzzz
-      zzzzzzzzzzzzzzzzzzzzzzzz
-      zzzzzzzzzzzzzzzzzzzzzz
-      ZZZZZZZZZZZZZZZZZZZZZZZZZZZ</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}></p>
     </div>
   </section>    
 )

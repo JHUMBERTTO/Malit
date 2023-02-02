@@ -32,7 +32,7 @@ export const features = [
     icon: shield,
     title: "Confianza",
     content:
-      "MALIT se enorgullece de garantizar cumplimiento y ofrecer un servicio al cliente de alta calidad."
+      "MALIT se enorgullece de garantizar cumplimiento y brindar un servicio al cliente de alta calidad."
   },
 ];
 
