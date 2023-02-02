@@ -14,7 +14,6 @@ const Hero = () => (
         <p className={`${styles.paragraph} text-black max-w-[470px] mt-5 mb-10`}>
           Descubre cómo nuestro servicio de creación de menús digitales,
           puede aumentar la interacción y satisfacción de tus clientes. 
-          ¡Mejora tu negocio con tecnología y estilo!
         </p>
       </div>
       <div className="flex justify-end">

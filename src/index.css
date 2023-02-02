@@ -27,10 +27,11 @@
 .bgpage{
   background-color: #ffffff;
 }
-/* .bgpage{ 
-  background-color: #CD6C00;
+
+.glass{
+  background-color: hsl(12, 100%, 50%, 0.83);
+  backdrop-filter: blur(7px); 
 }
-*/
 
 
 .bg-black-gradient {
