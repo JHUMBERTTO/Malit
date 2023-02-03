@@ -138,11 +138,11 @@
   filter: blur(750px);
 }
 
-.btnContact{
+.btnContact:hover{
   opacity: 0.8;
   transition: 0.3s;
 }
 
-.btnContact:hover{
+.btnContact{
   opacity: 1;
   }

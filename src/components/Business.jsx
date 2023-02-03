@@ -25,7 +25,7 @@ const Business = () =>(
       <div className={layout.sectionInfo}>
         <h2 className= {styles.heading2}>MALIT</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>
-          Malit tu mejor opcion para volver tu negocio mas inteligente, Contactanos para recibir un servicio personalizado
+          Tu mejor opcion para volver tu negocio mas inteligente, Contactanos para recibir un servicio personalizado
         </p>
         <Button/>
       </div>

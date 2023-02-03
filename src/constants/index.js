@@ -52,7 +52,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://instagram.com/malitservicios?igshid=YmMyMTA2M2Y=",
   },
 ];
 
