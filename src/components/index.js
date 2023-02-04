@@ -5,8 +5,10 @@ import Business from "./Business";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Hero from "./Hero";
+import Footer from "./Footer";
 
 export {
+  Footer,
   Navbar,
   ExampleMenu,
   ExampleMenu2,

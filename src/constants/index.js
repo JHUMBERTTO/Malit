@@ -2,19 +2,19 @@ import { instagram, star, shield  } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
+    id: "inicio",
     title: "Inicio",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "servicio",
+    title: "Servicio",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "soluciones",
+    title: "Soluciones",
   },
   {
-    id: "clients",
+    id: "nosotros",
     title: "Nosotros",
   },
 ];
@@ -25,14 +25,14 @@ export const features = [
     icon: star,
     title: "Calidad",
     content:
-      "La mejor calidad en precio accesible a comparacion de  nuestros competidores",
+      "Obtén la mejor calidad a precios asequibles en comparación con nuestros competidores.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Seguridad",
+    title: "Confianza",
     content:
-      "Malit se compromete a Entregar y Desarrollar el servicio al cliente, Contactanos!."
+      "MALIT se enorgullece de garantizar cumplimiento y brindar un servicio al cliente de alta calidad."
   },
 ];
 
@@ -40,14 +40,9 @@ export const features = [
 
 export const stats = [
   {
-    id: "stats-1",
-    title: "Personas que confian en Malit",
-    value: "50+",
-  },
-  {
     id: "stats-2",
     title: "Restaurantes y fondas que confian en nosotros",
-    value: "80+",
+    value: "30+",
   }
 ];
 
@@ -57,6 +52,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://instagram.com/malitservicios?igshid=YmMyMTA2M2Y=",
   },
 ];
+
