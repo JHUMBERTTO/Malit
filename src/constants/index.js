@@ -41,7 +41,7 @@ export const features = [
 export const stats = [
   {
     id: "stats-2",
-    title: "Restaurantes y fondas que confian en nosotros",
+    title: "Restaurantes y fondas confian en nosotros",
     value: "30+",
   }
 ];
@@ -52,7 +52,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://instagram.com/malitservicios?igshid=YmMyMTA2M2Y=",
+    link: "https://instagram.com/malitservice?igshid=YmMyMTA2M2Y=",
   },
 ];
 

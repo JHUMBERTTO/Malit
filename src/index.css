@@ -14,10 +14,7 @@
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.2);
 }
-.buttonContact{
-  background: rgb(217,173,124);
-  background: linear-gradient(340deg, rgba(217,173,124,0.9794292717086834) 0%, rgba(217,173,124,1) 11%, rgba(217,173,124,0.8673844537815126) 45%, rgba(217,173,124,0.2539390756302521) 86%);
-}
+
 .footercard{
   background-color: #d9ad7c;
 }
@@ -139,10 +136,11 @@
 }
 
 .btnContact:hover{
-  opacity: 0.8;
+  opacity: 1;
   transition: 0.3s;
 }
 
 .btnContact{
-  opacity: 1;
+  opacity: 0.7;
+  border-color: black;
   }
