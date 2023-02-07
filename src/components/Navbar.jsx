@@ -25,10 +25,10 @@ const Navbar = () => {
       <div className='sm:hidden flex flex-1 justify-end fixed z-[10]'>
         <img src={toggle ? close : menu } 
         alt="menu"
-        className='W-[28px] h-[28px] object-contain '
+        className='W-[25px] h-[25px] '
         onClick={() => setToggle((prev) => !prev)} />
         <div
-        className={`${toggle ? 'flex' : 'hidden'} p-6 glass z-[6] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+        className={`${toggle ? 'fixed' : 'hidden'} p-6 glass z-[6] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
           <ul className="list-none flex flex-col justify-end items-center flex-1 ">
             {navLinks.map((nav,index)=>( 
             <li
