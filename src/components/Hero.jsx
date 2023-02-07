@@ -6,12 +6,12 @@ const Hero = () => (
       <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1200" className={`flex justify-start items-start flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100px] leading-[75px]">
-          Haz tus 
+          Transforma tus 
           <br className="sm:block hidden"/> {" "}
-            <span className="text-black"> menús digitales </span> {" "}
+            <span className="text-black"> Menús en </span> {" "}
           </h1>
         </div>
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100px] leading-[75px] w-full">más atractivos</h1>
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-black ss:leading-[100px] leading-[75px] w-full">Experiencias Digitales</h1>
         <p className={`${styles.paragraph} text-black max-w-[470px] mt-5 mb-10`}>
           Descubre cómo nuestro servicio de creación de menús digitales,
           puede aumentar la interacción y satisfacción de tus clientes. 
