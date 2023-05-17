@@ -9,7 +9,7 @@ Technologies Used
 HTML/CSS/JavaScript
 ReactJS
 Node.js
-Firebase google
+Firebase
 
 How to Use
 To use Malit, simply sign up for an account and log in. From there, you can start adding your restaurant's information, such as menu items, inventory, and sales data. You can also track orders and manage your staff using the tool.
@@ -20,6 +20,5 @@ We plan to continue developing Malit and adding new features to make it even mor
 Integration with popular payment gateways
 Customizable reports and analytics
 Mobile app version for both iOS and Android
-Support for multiple languages, including Spanish and French
 Contact Us
-If you have any questions, feedback, or suggestions, please feel free to contact us at malit@restauranttool.com. We would love to hear from you and help you with any issues you may be experiencing. Thank you for using Malit!
+If you have any questions, feedback, or suggestions, please feel free to send an email to malitcontacto@gmail.com We would love to hear from you and help you with any issues you may be experiencing. Thank you for using Malit!
