@@ -23,3 +23,5 @@ Mobile app version for both iOS and Android
   
 <h2>Contact Us</h2>
 If you have any questions, feedback, or suggestions, please feel free to send an email to malitcontacto@gmail.com We would love to hear from you and help you with any issues you may be experiencing. Thank you for using Malit!
+
+  
