@@ -22,7 +22,7 @@ const SOON = () => {
   
   return (
     <div>
-    <h1>{randomWord}</h1>
+    <h1 className="flex items-center justify-center h-screen">{randomWord}</h1>
     </div>
   )
 }
