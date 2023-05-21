@@ -29,7 +29,7 @@ const SOON = () => {
   </div>
 
   <h3 className="text-xl mt-10">¡Contáctanos!</h3>
-  <div className="flex flex-col items-center mt-3  sm:flex-row sm:items-center">
+  <div className="flex flex-col items-center   sm:flex-row sm:items-center">
     <a href="mailto:malitcontacto@gmail.com" className="btnContact py-4 px-6 bg-realorange font-poppins font-medium text-[18px] text-white outline-none rounded-full">malitcontacto@gmail.com</a>
     <a href="https://www.instagram.com/malitservice/" className="relative group">
     <img src={instagram} alt="Instagram" className="m-10 w-8 h-8 "></img>
