@@ -7,7 +7,7 @@ import App from "../App"
 const CustomRoutes = () => {
   return (
     <Routes>
-    <Route path="/soon" element={<App/>} />
+    <Route path="/experimental_features_malit" element={<App/>} />
     <Route path="/" element={<SOON />} />
     </Routes>
 
