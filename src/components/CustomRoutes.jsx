@@ -7,8 +7,8 @@ import App from "../App"
 const CustomRoutes = () => {
   return (
     <Routes>
-    <Route path="/" element={<App/>} />
-    <Route path="/soon" element={<SOON />} />
+    <Route path="/soon" element={<App/>} />
+    <Route path="/" element={<SOON />} />
     </Routes>
 
   )

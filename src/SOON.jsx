@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { logo, malit } from './assets';
 
 const SOON = () => {
   const [randomWord, setRandomWord] = useState('');
@@ -21,9 +22,14 @@ const SOON = () => {
   }, []);
   
   return (
-    <div>
-    <h1 className="flex items-center justify-center h-screen">{randomWord}</h1>
-    </div>
+<div class="flex flex-col h-screen justify-center items-center">
+  <div className="flex flex-col items-center mt-4">
+    <img className="max-w-full max-h-full " src={logo} alt="Logo"></img>
+    <h1 className="text-xl mt-10">{randomWord}</h1>
+  </div>
+  <a href="mailto:malitcontacto@gmail.com" className="btnContact py-4 px-6 bg-realorange font-poppins font-medium text-[18px] text-white outline-none rounded-full mt-10">malitcontacto@gmail.com</a>
+</div>
+
   )
 }
 
