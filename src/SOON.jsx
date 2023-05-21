@@ -27,7 +27,8 @@ const SOON = () => {
     <img className="max-w-full max-h-full " src={logo} alt="Logo"></img>
     <h1 className="text-xl mt-10">{randomWord}</h1>
   </div>
-  <a href="mailto:malitcontacto@gmail.com" className="btnContact py-4 px-6 bg-realorange font-poppins font-medium text-[18px] text-white outline-none rounded-full mt-10">malitcontacto@gmail.com</a>
+  <h3 className="text-xl mt-10">¡Contactanos!</h3>
+  <a href="mailto:malitcontacto@gmail.com" className="btnContact py-4 px-6 bg-realorange font-poppins font-medium text-[18px] text-white outline-none rounded-full mt-3">malitcontacto@gmail.com</a>
 </div>
 
   )
