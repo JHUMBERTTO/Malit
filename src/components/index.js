@@ -6,8 +6,11 @@ import CTA from "./CTA";
 import Stats from "./Stats";
 import Hero from "./Hero";
 import Footer from "./Footer";
-
+import SOON from "../SOON";
+import Button from "./Button";
+import App from "../App";
 export {
+  App,
   Footer,
   Navbar,
   ExampleMenu,
@@ -16,4 +19,6 @@ export {
   CTA,
   Stats,
   Hero,
+  Button,
+  SOON,
 };

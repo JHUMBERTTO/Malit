@@ -1,9 +1,8 @@
 import React from 'react'
 import styles  from './style';
-import { Navbar, Hero, Stats, Business, ExampleMenu, ExampleMenu2, CTA, Footer} from './components';
+import { Navbar, Hero, Stats, Business, ExampleMenu, ExampleMenu2, CTA, Footer, SOON, Button} from './components';
 import  AOS from "aos"
 import "aos/dist/aos.css"
-
 
 AOS.init();
 
@@ -33,7 +32,6 @@ const App = () => (
       </div>
     </div>
   </div>
-  
 );
 
 
