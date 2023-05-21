@@ -1,4 +1,4 @@
-
+import language from "./language_FILL0_wght400_GRAD0_opsz48.svg";
 import logo from "./logo.svg";
 import star from "./Star.svg";
 import shield from "./shield.svg"
@@ -11,6 +11,7 @@ import menus from "./menus.png"
 import malit from "./MalitLogo.png"
 
 export {
+  language,
   malit,
   menus,
   exampleMenu2,

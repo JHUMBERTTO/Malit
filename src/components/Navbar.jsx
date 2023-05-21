@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { close,logo,menu }from '../assets'
+import { close,language,logo,menu }from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
@@ -8,7 +8,10 @@ const Navbar = () => {
     <nav className='flex items-center justify-end navbar ' >
       <div className='w-full flex py-6 items-start justify-between navbar '>
       <img src={logo} alt="Malit" className="w-[150px] h-[50px] flex"/>
+      <div>
         <div>
+          <img src={language}></img>
+        </div>
           <ul className="list-none sm:flex hidden justify-start items-center flex-1">
             {navLinks.map((nav,index)=>(
               <li
@@ -22,6 +25,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+
       <div className='sm:hidden flex flex-1 justify-end fixed z-[10]'>
         <img src={toggle ? close : menu } 
         alt="menu"
