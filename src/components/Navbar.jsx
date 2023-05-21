@@ -10,7 +10,7 @@ const Navbar = () => {
       <img src={logo} alt="Malit" className="w-[150px] h-[50px] flex"/>
       <div>
         <div>
-          <img src={language}></img>
+          {/* enicma de navbar */}
         </div>
           <ul className="list-none sm:flex hidden justify-start items-center flex-1">
             {navLinks.map((nav,index)=>(
