@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { logo,instagram} from './assets';
 
-const SOON = () => {
+const soon = () => {
   const [randomWord, setRandomWord] = useState('');
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const SOON = () => {
   )
 }
 
-export default SOON
+export default soon
