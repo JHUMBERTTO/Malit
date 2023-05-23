@@ -8,7 +8,7 @@ AOS.init();
 
 
 const App = () => ( 
-  <div className='bgpage w-full overflow-hidden'>
+  <div className='bgpage w-full overflow-hidden '>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
