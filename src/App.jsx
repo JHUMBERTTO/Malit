@@ -7,13 +7,13 @@ import 'aos/dist/aos.css'
 AOS.init()
 
 const App = () => (
-  <div className='bgpage w-full overflow-hidden '>
+  <div className='bgpage w-full overflow-hidden bg-slate-200 dark:bg-slate-900'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
-
+    {/* <div className="bg-gray-800 h-[3px]  w-full dark:bg-gray-400"></div> no le gusto al gay */}
     <div className={`bgpage ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className='flex items-center justify-end navbar '>
       <div className='w-full flex py-6 items-start justify-between navbar '>
-        <img src={logo} alt='Malit' className='w-[150px] h-[50px] flex' />
+        <img src={logo} alt='Malit' className='w-[150px] h-[50px] flex dark:invert' />
         <div>
           <div>
             {/* enicma de navbar */}
@@ -16,9 +16,9 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`hover:text-orange-600 font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-black `}
+                className={`hover:text-orange-600 mt-3 font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-black dark:text-slate-100 dark:hover:text-orange-400`}
               >
-                <a href={`#${nav.id}`}>
+                <a href={`#${nav.id}`} >
                   {nav.title}
                 </a>
               </li>
@@ -31,11 +31,11 @@ const Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt='menu'
-          className='w-[40px] h-[25px]  '
+          className='w-[40px] h-[25px] dark:invert '
           onClick={() => setToggle((prev) => !prev)}
         />
         <div
-          className={`${toggle ? 'fixed' : 'hidden'} p-6 glass z-[6] absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          className={`${toggle ? 'fixed' : 'hidden'} p-6 glass z-[6] absolute top-[-60px]  right-0 mx-4 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className='list-none flex flex-col justify-end items-center flex-1 '>
             {navLinks.map((nav, index) => (
@@ -51,6 +51,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      
     </nav>
   )
 }
