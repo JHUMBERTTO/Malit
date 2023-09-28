@@ -6,7 +6,7 @@ import DarkButton from './DarkButton'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
-    <nav className='flex items-center justify-end navbar transition-all'>
+    <nav className='flex items-center justify-end navbar transition-all '>
       <div className='w-full flex py-6 items-start justify-between navbar '>
         <img src={logo} alt='Malit' className='w-[150px] h-[50px] flex dark:invert transition-all' />
         <div>
