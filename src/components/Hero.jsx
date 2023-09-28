@@ -18,7 +18,7 @@ const Hero = () => (
       </p>
     </div>
     <div className='flex justify-end'>
-      <img src={menus} alt='menus' data-aos='fade-left' data-aos-offset='300' data-aos-easing='ease-in-sine' data-aos-duration='1200' className='w-[100%] h-[100%] relative mr-0 z-[5]' />
+      <img src={menus} alt='menus' data-aos='fade-left' data-aos-offset='300' data-aos-easing='ease-in-sine' data-aos-duration='1200' className='w-[100%] h-[100%] relative mr-0 ' />
     </div>
   </section>
 )
