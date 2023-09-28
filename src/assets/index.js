@@ -9,8 +9,10 @@ import exampleMenu from './exampleMenu.png'
 import exampleMenu2 from './exampleMenu2.png'
 import menus from './menus.png'
 import malit from './MalitLogo.png'
+import sunmoon from './sunmoon.svg'
 
 export {
+  sunmoon,
   language,
   malit,
   menus,
