@@ -1,13 +1,30 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { close, language, logo, menu } from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
+  const [theme, setTheme] = useState(() => {
+    if(localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+     return "dark"
+    }
+    return "light"
+    });
+  useEffect(()=>{
+    if(theme == "dark"){
+      document.querySelector("html").classList.add("dark")
+    }else{
+      document.querySelector("html").classList.remove("dark")
+    }
+  },[theme])
+  const handleTheme = () => {
+    setTheme(prevTheme => prevTheme === "light" ? "dark" : "light")
+  }
+
   return (
-    <nav className='flex items-center justify-end navbar '>
+    <nav className='flex items-center justify-end navbar transition-all'>
       <div className='w-full flex py-6 items-start justify-between navbar '>
-        <img src={logo} alt='Malit' className='w-[150px] h-[50px] flex dark:invert' />
+        <img src={logo} alt='Malit' className='w-[150px] h-[50px] flex dark:invert transition-all' />
         <div>
           <div>
             {/* enicma de navbar */}
@@ -25,6 +42,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+        <button onClick={handleTheme}>Change</button>
       </div>
 
       <div className='sm:hidden flex flex-1 justify-end fixed z-[10]'>

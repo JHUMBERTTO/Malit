@@ -6,21 +6,21 @@ import 'aos/dist/aos.css'
 
 AOS.init()
 
-const App = () => (
+const App = () => {
+  return(
   <div className='bgpage w-full overflow-hidden bg-slate-200 dark:bg-slate-900'>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
-    {/* <div className="bg-gray-800 h-[3px]  w-full dark:bg-gray-400"></div> no le gusto al gay */}
     <div className={`bgpage ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
 
-    <div className={`bgpage ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bgpage ${styles.paddingX} ${styles.flexStart} dark:bg-slate-900`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
@@ -32,5 +32,5 @@ const App = () => (
     </div>
   </div>
 )
-
+  }
 export default App
