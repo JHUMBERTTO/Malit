@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { close, language, logo, menu } from '../assets'
+import {sunmoon,close, language, logo, menu } from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
@@ -42,7 +42,17 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <button onClick={handleTheme}>Change</button>
+        <button 
+          onClick={handleTheme}
+          className="relative w-10 h-10 p-1 bg-transparent border-none"
+        >
+          <img 
+            src={sunmoon} 
+            alt="Sun and Moon" 
+            className={`w-full h-full dark:invert ${theme === 'light' ? 'filter brightness-75' : ''} hover:scale-110 transition-all`}
+          />
+          
+        </button>
       </div>
 
       <div className='sm:hidden flex flex-1 justify-end fixed z-[10]'>
