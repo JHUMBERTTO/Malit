@@ -26,7 +26,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <DarkButton />
+        <DarkButton  />
       </div>
 
       <div className='sm:hidden flex flex-1 justify-end fixed z-[10]'>
