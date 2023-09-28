@@ -11,7 +11,7 @@ import menus from './menus.png'
 import malit from './MalitLogo.png'
 import sunmoon from './sunmoon.svg'
 
-export {
+export{
   sunmoon,
   language,
   malit,
@@ -22,6 +22,6 @@ export {
   shield,
   star,
   menu,
-  close,
-  instagram
+  instagram,
+  close
 }

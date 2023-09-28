@@ -1,26 +1,10 @@
 import { useEffect, useState } from 'react'
-import {sunmoon,close, language, logo, menu } from '../assets'
+import {close, language, logo, menu } from '../assets'
 import { navLinks } from '../constants'
+import DarkButton from './DarkButton'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
-  const [theme, setTheme] = useState(() => {
-    if(localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-     return "dark"
-    }
-    return "light"
-    });
-  useEffect(()=>{
-    if(theme == "dark"){
-      document.querySelector("html").classList.add("dark")
-    }else{
-      document.querySelector("html").classList.remove("dark")
-    }
-  },[theme])
-  const handleTheme = () => {
-    setTheme(prevTheme => prevTheme === "light" ? "dark" : "light")
-  }
-
   return (
     <nav className='flex items-center justify-end navbar transition-all'>
       <div className='w-full flex py-6 items-start justify-between navbar '>
@@ -42,17 +26,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <button 
-          onClick={handleTheme}
-          className="relative w-10 h-10 p-1 bg-transparent border-none"
-        >
-          <img 
-            src={sunmoon} 
-            alt="Sun and Moon" 
-            className={`w-full h-full dark:invert ${theme === 'light' ? 'filter brightness-75' : ''} hover:scale-110 transition-all`}
-          />
-          
-        </button>
+        <DarkButton />
       </div>
 
       <div className='sm:hidden flex flex-1 justify-end fixed z-[10]'>
