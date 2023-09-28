@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { logo, instagram } from './assets'
+import DarkButton from './components/DarkButton'
 
 const soon = () => {
   const [randomWord, setRandomWord] = useState('')
@@ -17,8 +18,11 @@ const soon = () => {
   }, [])
 
   return (
-    <div className='flex flex-col h-screen justify-center items-center bg-slate-200 dark:bg-slate-900 text-slate-200'>
+    <div className='flex flex-col h-screen justify-center items-center bg-slate-200 dark:bg-slate-900 dark:text-slate-200'>
       <div className='flex flex-col  items-center mt-4'>
+        <header className='flex !justify-end !items-end '>
+          <DarkButton />
+        </header>
         <img className='max-w-full max-h-full dark:invert' src={logo} alt='Logo' />
         <h1 className='text-3xl font-semibold mt-20 w-3/4 tracking-wide max-sm:text-xl text-center'>{randomWord}</h1>
       </div>

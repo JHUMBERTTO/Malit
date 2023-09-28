@@ -21,9 +21,6 @@
 * {
   scroll-behavior: smooth;
 }
-.bgpage{
-  background-color: #ffffff;
-}
 
 .glass{
   background-color: hsl(12, 100%, 50%, 0.70);
