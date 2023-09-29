@@ -141,3 +141,15 @@
   opacity: 0.7;
   border-color: black;
   }
+.menu:active{
+  animation: spin 1s linear;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
