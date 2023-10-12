@@ -21,9 +21,6 @@
 * {
   scroll-behavior: smooth;
 }
-.bgpage{
-  background-color: #ffffff;
-}
 
 .glass{
   background-color: hsl(12, 100%, 50%, 0.70);
@@ -144,3 +141,21 @@
   opacity: 0.7;
   border-color: black;
   }
+.menu:active{
+  animation: spin 1s linear;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+.dbs{
+  /* quiero hacer más grande mi texto  */
+  font-size: 100px;
+  
+
+}

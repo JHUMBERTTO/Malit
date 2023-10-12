@@ -7,7 +7,7 @@ const CTA = () => (
       <h2 className={styles.heading2}>Sobre nosotros</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Somos una empresa dedicada a brindar asistencia excepcional y de alta calidad, impulsados por un equipo apasionado y comprometido con el éxito y la excelencia en lo que hacemos.</p>
     </div>
-    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+    <div className={`${styles.flexCenter}  ml-0 sm:mt-0 !mt-10`}>
       <Button />
     </div>
   </section>
