@@ -1,7 +1,6 @@
-
 import logo from './logo.svg'
 import star from './Star.svg'
-import shield from './shield.svg'
+import shield from './Shield.svg'
 import menu from './menu.svg'
 import close from './close.svg'
 import instagram from './instagram.svg'

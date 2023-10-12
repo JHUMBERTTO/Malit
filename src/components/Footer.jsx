@@ -5,10 +5,9 @@ const Footer = () => {
   return (
     <>
       <footer className='bg-gray-242424 text-white px-6 py-4'>
-        <div className='mb-4 cursor-default'>Malit was developed by:</div>
-        <div className='text-gray-400 flex items-center space-x-4'>
-          {/* Nombre 1 */}
-          <div>
+        <div className='mb-4 cursor-default text-center sm:text-left flex justify-center items-center'>Malit was developed by:</div>
+        <div className='text-gray-400 flex flex-col sm:flex-row items-center justify-center sm:justify-start space-y-4 sm:space-y-0 sm:space-x-4'>
+          <div className="flex items-center space-x-2">
             <p className='cursor-default'>Eduardo Aguilar</p>
             <a target="_blank" rel="noreferrer" href="https://instagram.com/aguilarr.ans" className={color}>
               <RiInstagramLine size="25"/>
@@ -23,9 +22,8 @@ const Footer = () => {
               <RiLinkedinBoxFill size="25" />
             </a>
           </div>
-          {/* Nombre 2 */}
-          <div className='bg-white w-0.5 h-10' />
-          <div>
+          <div className='bg-slate-800 dark:bg-slate-100 sm:w-[1px] sm:h-[50px] w-[20rem] h-[1px]'/>
+          <div className="flex items-center space-x-2">
             <p className='cursor-default'>Jared Portocarrero</p>
             <a target="_blank" rel="noreferrer" href='https://www.instagram.com/_jared1x_/' className={color}>
               <RiInstagramLine size="25"/>
@@ -40,9 +38,8 @@ const Footer = () => {
               <RiLinkedinBoxFill size="25" />
             </a>
           </div>
-          {/* Nombre 3 */}
-          <div className='bg-white w-0.5 h-10' />
-          <div>
+          <div className='bg-slate-800 dark:bg-slate-100 sm:w-[1px] sm:h-[50px] w-[20rem] h-[1px]'/>
+          <div className="flex items-center space-x-2">
             <p className='cursor-default'>Miguel Gonzalez</p>
             <a target="_blank" rel="noreferrer" href='https://www.instagram.com/mxrenoo_/' className={color}>
               <RiInstagramLine size="25"/>
@@ -57,9 +54,8 @@ const Footer = () => {
               <RiLinkedinBoxFill size="25" />
             </a>
           </div>
-          {/* Nombre 4 */}
-          <div className='bg-white w-0.5 h-10' />
-          <div>
+          <div className='bg-slate-800 dark:bg-slate-100 sm:w-[1px] sm:h-[50px] w-[20rem] h-[1px]'/>
+          <div className="flex items-center space-x-2">
             <p className='cursor-default'>Jorge Garcia</p>
             <a target="_blank" rel="noreferrer" href="https://www.instagram.com/j.humbertto/" className={color}>
               <RiInstagramLine size="25"/>
@@ -75,7 +71,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className='mt-4 cursor-default text-gray-400'>
+        <div className='mt-4 cursor-default text-gray-400 text-center flex justify-center items-center sm:text-left'>
           MALIT 2023, All rights reserved.
         </div>
       </footer>
@@ -84,5 +80,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// <div className='bg-white w-0.5' />
