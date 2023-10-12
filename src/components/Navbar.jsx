@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div className="sm:w-1/3 flex justify-end items-center">
-          <div className="text-xl sm:flex hidden fixed right-4 top-4">
+          <div className="text-[1.60rem] sm:flex hidden fixed right-4 top-4 text-slate-800 dark:text-slate-100">
             <DarkButton />
           </div>
         </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
 
             ))}
-            <div className='mt-3'>
+            <div className='mt-3 text-slate-800 dark:text-slate-100'>
             <DarkButton />
             </div>
           </ul>
