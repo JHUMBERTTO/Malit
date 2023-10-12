@@ -1,4 +1,3 @@
-
 import React from 'react'
 import styles from './style'
 
@@ -41,7 +40,7 @@ const App = () => {
     </div>
   )
 
-  return(
+  return (
     <div className='bgpage w-full overflow-hidden bg-slate-200 dark:bg-slate-900'>
       {renderNavbar()}
       {renderHero()}

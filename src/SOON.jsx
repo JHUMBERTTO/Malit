@@ -22,13 +22,12 @@ const soon = () => {
       <div className='flex flex-col  items-center mt-4'>
         <img className='max-w-full max-h-full dark:invert' src={logo} alt='Logo' />
 
-
         <h1 className='text-3xl font-semibold mt-20 w-3/4 tracking-wide max-sm:text-xl text-center'>{randomWord}</h1>
       </div>
       <h3 className='text-xl mt-10'>¡Contáctanos!</h3>
       <div className='flex flex-col items-center   sm:flex-row sm:items-center'>
         <div className='flex pr-5 text-[40px]'>
-        <DarkButton />
+          <DarkButton />
         </div>
 
         <a href='mailto:malitcontacto@gmail.com' className='btnContact py-4 px-6 bg-realorange font-poppins font-medium text-[18px] text-white outline-none rounded-full'>malitcontacto@gmail.com</a>
