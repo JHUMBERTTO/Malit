@@ -7,30 +7,31 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="flex items-center z-10  fixed top-0 w-full bg-slate-200 dark:bg-slate-900 p-5">
+    <nav className="flex items-center z-10 fixed top-0 w-full bg-slate-200 dark:bg-slate-900 p-5">
       <div className="flex inset-x-0">
-        <img src={logo} alt="Malit" className="dark:invert transition-all mr-[50%]" />
-        <div className="hidden sm:block sm:w-1/3">
-          {/* Contenido del elemento 1 */}
+        <img src={logo} alt="Malit" className="dark:invert transition-all mr-[55%]" />
+        
+        <div className="hidden sm:flex sm:w-1/3 justify-center">
+          {/* Lista de navegación */}
+          <ul className="list-none sm:flex hidden items-center flex-1 flex-row">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.id}
+                className={`hover:text-orange-600 mt-3 font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-black dark:text-slate-100 dark:hover:text-orange-400`}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
         </div>
 
-        <ul className="list-none sm:flex hidden items-center flex-1">
-          {navLinks.map((nav, index) => (
-            <li
-              key={nav.id}
-              className={`hover:text-orange-600 mt-3 font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-black dark:text-slate-100 dark:hover:text-orange-400`}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
-
-        <div className="sm:w-1/3">
-          <div className="text-xl sm:flex hidden fixed right-10">
+        <div className="sm:w-1/3 flex justify-end items-center">
+          <div className="text-xl sm:flex hidden fixed right-4 top-4">
             <DarkButton />
           </div>
         </div>
       </div>
+
 
       <div className="sm:hidden fixed right-10  z-[11]">
         
