@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode:"class",
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx}'],
   mode: 'jit',
   theme: {
@@ -15,7 +15,7 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif']
       }
     },
-    
+
     screens: {
       xs: '480px',
       ss: '620px',

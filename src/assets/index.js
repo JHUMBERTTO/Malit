@@ -9,7 +9,7 @@ import exampleMenu2 from './exampleMenu2.png'
 import menus from './menus.png'
 import malit from './MalitLogo.png'
 
-export{
+export {
   malit,
   menus,
   exampleMenu2,

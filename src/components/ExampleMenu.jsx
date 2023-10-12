@@ -10,7 +10,7 @@ const ExampleMenu = () => (
         <img src={exampleMenu} alt='ExampleMenu' className='w-[100%] h-[100%] relative z-[5] mr-20' />
       </div>
       <div className={` ml-20 ${layout.sectionInfo} `} data-aos='fade-left' data-aos-duration='1200'>
-        <h2 className={styles.heading2} >¿Quieres un menú digital <br className='sm:block hidden' />fácil, moderno y rápido?</h2>
+        <h2 className={styles.heading2}>¿Quieres un menú digital <br className='sm:block hidden' />fácil, moderno y rápido?</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`} />
       </div>
     </section>
