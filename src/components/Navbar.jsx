@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { close, language, logo, menu } from '../assets'
+import { close, logo, menu } from '../assets'
 import { navLinks } from '../constants'
 import DarkButton from './DarkButton'
 
@@ -26,7 +26,7 @@ const Navbar = () => {
         </ul>
 
         <div className="sm:w-1/3">
-          <div className=" sm:flex hidden fixed right-10">
+          <div className="text-xl sm:flex hidden fixed right-10">
             <DarkButton />
           </div>
         </div>

@@ -21,7 +21,7 @@ const App = () => {
   )
 
   const renderHero = () => (
-    <div className={`bgpage ${styles.flexStart}`}>
+    <div className={`bgpage mt-10 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
